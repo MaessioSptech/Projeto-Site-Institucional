@@ -1,42 +1,116 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: 'Barlow', sans-serif;
+
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
-header{
-    background-color: black;
-    border-bottom: 2px solid #32b9cd;
-    padding: 15px 0;
-    
+
+header {
+  padding: 15px 0;
+  background-color: black;
+  border-bottom: 3px solid #32b9cd;
 }
-.container{
-    display: flex;
-    flex-direction: row;
-    width: 80%;
-    color: white;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: space-between;
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
-.titulo{
-    color: #32b9cd;
-    font-size: 14px;
+
+.titulo {
+  color: #32b9cd;
+  font-size: 14px;
 }
-.navegacao{
-    color: #efb661;
+
+.navegacao {
+  width: 350px;
+  color: #efb661;
 }
-.navegacao ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-between; 
-    width: 300px;
+
+.navegacao ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
-.navegacao ul li{
-    font-size: 13px;
-    cursor: pointer;
+
+.navegacao ul li {
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.agora {
+  font-weight: bold;
+}
+
+/*  Conteúdo da Página */
+
+/* Banner */
+.banner{
+  background-image: url('./assets/img/bg-jelly-fish-para_outras_pags.png');
+  padding: 50px 0;
+  background-size: cover;
+}
+
+.banner .container{
+  height: 350px;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner p{
+  color: white;
+  font-size: 35px;
+  width: 280px;
+}
+
+/* SOCIAL */
+.social{
+  margin: 50px 0;
+  background-color: yellow;
+  justify-content: center;
+  align-items: center;
+}
+.social .caixas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.caixa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 15px;
+  border: 5px solid green;
+}
+.caixa img{
+  width: 170px;
+}
+.caixa p{
+  text-align: center;
+}
+.caixa h4{
+  margin: 15px 0;
+  color: #e6005a;
+}
+
+/* Rodapé */
+
+footer{
+  background-color: #32b9cd;
+  padding: 45px 0;
+}
+footer .container{
+  justify-content: center;
+}
+footer p{
+  color: white;
 }
