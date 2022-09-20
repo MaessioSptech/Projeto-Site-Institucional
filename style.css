@@ -1,61 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-  overflow-x: hidden;
-}
-
-header {
-  padding: 15px 0;
-  background-color: black;
-  border-bottom: 3px solid #32b9cd;
-}
-
-.container {
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.titulo {
-  color: #32b9cd;
-  font-size: 14px;
-}
-
-.navegacao {
-  width: 350px;
-  color: #efb661;
-}
-
-.navegacao ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-}
-
-.navegacao ul li {
-  font-size: 1rem;
-  cursor: pointer;
-}
-
-.agora {
-  font-weight: bold;
-}
-
 /*  Conteúdo da Página */
 
 /* Banner */
 .banner{
-  background-image: url('./assets/img/bg-jelly-fish-para_outras_pags.png');
+  background-image: url('./assets/bg-jelly-fish-para_outras_pags.png');
   padding: 50px 0;
   background-size: cover;
 }
@@ -75,7 +22,6 @@ header {
 /* SOCIAL */
 .social{
   margin: 50px 0;
-  background-color: yellow;
   justify-content: center;
   align-items: center;
 }
@@ -89,7 +35,6 @@ header {
   flex-direction: column;
   align-items: center;
   margin: 0 15px;
-  border: 5px solid green;
 }
 .caixa img{
   width: 170px;
@@ -102,15 +47,3 @@ header {
   color: #e6005a;
 }
 
-/* Rodapé */
-
-footer{
-  background-color: #32b9cd;
-  padding: 45px 0;
-}
-footer .container{
-  justify-content: center;
-}
-footer p{
-  color: white;
-}
